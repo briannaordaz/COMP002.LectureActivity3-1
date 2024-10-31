@@ -10,7 +10,12 @@ printHi();
 
 
 // 2. Write a function that gives the approximate circumference of a circle given the diameter.
+function helloWorld() {
+    const i = 50
+    return i * 5  // 5 = diameter
+}
 
+console.log(helloWorld(5));
 
 // 3. Write one function that calls another function.
 // * Inside of the first function, insert a console.log(...) statement.
