@@ -22,9 +22,20 @@ console.log(helloWorld(5));
 // * Next, insert the call to the second function.
 // * The second function should have its own console.log(...) statement inside.
 // * Finally, after the call to the second function, insert another console.log(...) statement.
+function gamesRoblox() {
+    console.log("1Roblox!");
+}
 
+function gamesMinecraft() {
+    console.log("2Minecraft!");
 
+    gamesRoblox();
+
+    console.log("3Video Games!")
+}
+
+gamesMinecraft();
 // 4. Call your first function in your program and observe the output. What happens in what order and why?
-
+gamesRoblox();
 
 // 5. Write a function that causes the stack to overflow.
