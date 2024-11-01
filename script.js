@@ -39,3 +39,9 @@ gamesMinecraft();
 gamesRoblox();
 
 // 5. Write a function that causes the stack to overflow.
+function idk() {
+    console.log("Heyy!");
+    idk();
+};
+
+idk();
